@@ -1,26 +1,27 @@
-[
-	{
-		"name": "Millennium Falcon",
-		"type": "spaceship",
-		"active": true,
-		"alliance": "Rebels",
-		"age": 25,
-		"description": "Han Solo's spaceship"
-	},
-	{
-		"name": "Tie fighter",
-		"type": "spaceship",
-		"active": true,
-		"alliance": "Empire",
-		"age": 4,
-		"description": "Darth Vader's spaceship"
-	},
-	{
-		"name": "AT-AT",
-		"type": "transport vehicle",
-		"active": false,
-		"alliance": "Empire",
-		"age": 10,
-		"description": "Land based large transportation vehicle"
-	}
-]
+{
+	"vehicles": [{
+			"name": "Millennium Falcon",
+			"type": "spaceship",
+			"active": true,
+			"alliance": "Rebels",
+			"age": 25,
+			"description": "Han Solo's spaceship"
+		},
+		{
+			"name": "Tie fighter",
+			"type": "spaceship",
+			"active": true,
+			"alliance": "Empire",
+			"age": 4,
+			"description": "Darth Vader's spaceship"
+		},
+		{
+			"name": "AT-AT",
+			"type": "transport vehicle",
+			"active": false,
+			"alliance": "Empire",
+			"age": 10,
+			"description": "Land based large transportation vehicle"
+		}
+	]
+}
