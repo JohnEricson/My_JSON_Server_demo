@@ -6,3 +6,7 @@ info:
   license:
     name: BSD-3-Clause
     url: https://opensource.org/licenses/BSD-3-Clause
+servers:
+  - url: https://my-json-server.typicode.com/JohnEricson/My_JSON_Server_demo/
+    variables: {}
+    description: Johns public interactive demo server
