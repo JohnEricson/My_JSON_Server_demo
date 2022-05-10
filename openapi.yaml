@@ -1,0 +1,8 @@
+openapi: 3.0.1
+info:
+  title: Johns API
+  version: '1.0'
+  description: This is Johns API to test Insomnia and RESTful API development
+  license:
+    name: BSD-3-Clause
+    url: https://opensource.org/licenses/BSD-3-Clause
