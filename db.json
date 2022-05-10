@@ -1,14 +1,26 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+	{
+		"name": "Millennium Falcon",
+		"type": "spaceship",
+		"active": true,
+		"alliance": "Rebels",
+		"age": 25,
+		"description": "Han Solo's spaceship"
+	},
+	{
+		"name": "Tie fighter",
+		"type": "spaceship",
+		"active": true,
+		"alliance": "Empire",
+		"age": 4,
+		"description": "Darth Vader's spaceship"
+	},
+	{
+		"name": "AT-AT",
+		"type": "transport vehicle",
+		"active": false,
+		"alliance": "Empire",
+		"age": 10,
+		"description": "Land based large transportation vehicle"
+	}
+]

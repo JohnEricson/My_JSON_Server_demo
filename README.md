@@ -1,7 +1,5 @@
 ## Try it
 
-[https://my-json-server.typicode.com/typicode/demo](https://my-json-server.typicode.com/typicode/demo)
+Based on https://github.com/typicode/demo
 
-## Use your own data
-
-Fork it and change `db.json` values or create a repo with a `db.json` file.
+Use together with https://my-json-server.typicode.com to expose db.json as RESTful webservices you can interact with.
