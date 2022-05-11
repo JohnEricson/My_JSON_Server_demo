@@ -1,5 +1,6 @@
 {
-	"vehicles": [{
+	"vehicles": [
+		{
 			"name": "Millennium Falcon",
 			"type": "spaceship",
 			"active": true,
