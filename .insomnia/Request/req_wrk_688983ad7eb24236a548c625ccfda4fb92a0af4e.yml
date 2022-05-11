@@ -1,0 +1,21 @@
+_id: req_wrk_688983ad7eb24236a548c625ccfda4fb92a0af4e
+type: Request
+parentId: wrk_688983ad7eb24236a548c625ccfda4fb
+modified: 1652275949640
+created: 1652275735710
+url: "{{ base_url }}/vehicles"
+name: Returns a list of vehicles.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652275735710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
