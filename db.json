@@ -1,6 +1,7 @@
 {
 	"vehicles": [
 		{
+			"id": 1,
 			"name": "Millennium Falcon",
 			"type": "spaceship",
 			"active": true,
@@ -9,6 +10,7 @@
 			"description": "Han Solo's spaceship"
 		},
 		{
+			"id": 2,
 			"name": "Tie fighter",
 			"type": "spaceship",
 			"active": true,
@@ -17,12 +19,35 @@
 			"description": "Darth Vader's spaceship"
 		},
 		{
+			"id": 3,
 			"name": "AT-AT",
 			"type": "transport vehicle",
 			"active": false,
 			"alliance": "Empire",
 			"age": 10,
 			"description": "Land based large transportation vehicle"
+		}
+	],
+	"heroes": [
+		{
+			"id": 1,
+			"name": "Han Solo",
+			"vehicleId": 1,
+			"skills": [
+				{ "piloting": 10 },
+				{ "melee": 5 },
+				{ "lightsaber:": 1 }
+			]
+		},
+		{
+			"id": 2,
+			"name": "Darth Vader",
+			"vehicleId": 2,
+			"skills": [
+				{ "piloting": 10 },
+				{ "melee": 3 },
+				{ "lightsaber:": 10 }
+			]
 		}
 	]
 }
