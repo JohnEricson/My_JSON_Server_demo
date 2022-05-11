@@ -52,28 +52,6 @@ paths:
                       type: array
                       items:
                         type: object
-              examples:
-                Returns all heroes:
-                  value: |-
-                    [
-                      {
-                        "id": 1,
-                        "name": "Han Solo",
-                        "vehicleId": 1,
-                        "skills": [
-                          {
-                            "piloting": 10
-                          },
-                          {
-                            "melee": 5
-                          },
-                          {
-                            "lightsaber:": 1
-                          }
-                        ]
-                      },
-                      []..]
-                    ]
       tags:
         - heroes
   /heroes/{heroId}:
