@@ -117,19 +117,22 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  id:
-                    type: integer
-                    example: 45
-                  title:
-                    type: string
-                    example: my new post
-                  author:
-                    type: string
-                    example: me
+                $ref: '#/components/schemas/PostBody'
         default:
-          description: Default error sample
-            response
+          description: Default error sample response
       tags:
         - post
+components:
+  schemas:
+    PostBody:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 45
+        title:
+          type: string
+          example: my new post
+        author:
+          type: string
+          example: me
