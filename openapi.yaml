@@ -112,8 +112,21 @@ paths:
                   type: string
                   example: me
       responses:
-        default:
-          description: Default error sample
-            response
+        '2XX':
+          description: new post successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 45
+                  title:
+                    type: string
+                    example: my new post
+                  author:
+                    type: string
+                    example: me
       tags:
         - post
