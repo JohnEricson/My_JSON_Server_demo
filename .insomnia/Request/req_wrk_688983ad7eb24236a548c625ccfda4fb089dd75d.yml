@@ -1,0 +1,21 @@
+_id: req_wrk_688983ad7eb24236a548c625ccfda4fb089dd75d
+type: Request
+parentId: wrk_688983ad7eb24236a548c625ccfda4fb
+modified: 1652275735704
+created: 1652275735704
+url: "{{ base_url }}/heroes/{{ heroId }}"
+name: Get a hero by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652275735704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

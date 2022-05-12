@@ -1,0 +1,85 @@
+_id: spc_11b06ef3d99441b88f9439957f6a42fa
+type: ApiSpec
+parentId: wrk_688983ad7eb24236a548c625ccfda4fb
+modified: 1652279050619
+created: 1652275617721
+fileName: Johns test API
+contents: |
+  openapi: 3.0.1
+  info:
+    title: Johns API
+    version: '1.0'
+    description: This is Johns API to test Insomnia and RESTful API development
+    license:
+      name: BSD-3-Clause
+      url: https://opensource.org/licenses/BSD-3-Clause
+  servers:
+    - url: https://my-json-server.typicode.com/JohnEricson/My_JSON_Server_demo/
+      variables: {}
+      description: Johns public interactive demo server
+  paths:
+    /vehicles:
+      get:
+        summary: Returns a list of vehicles.
+        description: Optional extended description in CommonMark or HTML.
+        operationId: getVehicles
+        responses:
+          '200':
+            description: A JSON array of vehicle names
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    type: string
+        tags:
+          - vehicles
+    /heroes:
+      get:
+        summary: Returns a list of heroes.
+        description: Optional extended description in CommonMark or HTML.
+        operationId: getHeroes
+        responses:
+          '200':
+            description: A JSON array of heroes names
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                      name:
+                        type: string
+                      vehicleId:
+                        type: integer
+                      skills:
+                        type: array
+                        items:
+                          type: object
+        tags:
+          - heroes
+    /heroes/{heroId}:
+      get:
+        summary: Get a hero by ID
+        parameters:
+          - in: path
+            name: heroId
+            schema:
+              type: integer
+            required: true
+            description: Numeric ID of the hero to get
+        responses:
+          '200':
+            description: A JSON object of hero
+            content:
+              application/json:
+                schema:
+                  type: object
+                  items:
+                    type: string
+        tags:
+          - heroes
+contentType: yaml

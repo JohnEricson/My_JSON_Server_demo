@@ -1,0 +1,14 @@
+_id: env_env_5e454286fa8c4f14df408297d6630c75f45768ca_sub
+type: Environment
+parentId: env_5e454286fa8c4f14df408297d6630c75f45768ca
+modified: 1652275735712
+created: 1652275735712
+name: OpenAPI env
+data:
+  scheme: https
+  base_path: /JohnEricson/My_JSON_Server_demo
+  host: my-json-server.typicode.com
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1652275735712
