@@ -115,7 +115,44 @@ paths:
           description: Default error sample response
       tags:
         - post
+  /posts/{postId}:
+    summary: post level operations
+    description: fetch, update, delete a post
+    parameters:
+      - $ref: '#/components/parameters/PostId'
+    get:
+      summary: fetch one post
+      description: fetch a post from the server
+      operationId: fetchPost
+      responses:
+        2XX:
+          $ref: '#/components/responses/PostResp'
+        default:
+          description: Default error sample response
 components:
+  parameters:
+    PostId:
+      name: postId
+      in: path
+      required: true
+      schema:
+        type: integer
+        example: 1
+        minimum: 0
+  requestBodies:
+    PostReq:
+      description: post body sent to server
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/NewPostBody'
+  responses:
+    PostResp:
+      description: post body sent from server
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/PostBody'
   schemas:
     NewPostBody:
       type: object
