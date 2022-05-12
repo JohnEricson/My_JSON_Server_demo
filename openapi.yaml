@@ -128,5 +128,8 @@ paths:
                   author:
                     type: string
                     example: me
+        default:
+          description: Default error sample
+            response
       tags:
         - post
