@@ -93,4 +93,27 @@ paths:
                 items:
                   type: string
       tags:
-        - posts
+        - post
+    post:
+      summary: Create a new post
+      description: Store new post on the server.
+      operationId: createPost
+      requestBody:
+        required: true
+        content:
+          applicaton/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  example: my new post
+                author:
+                  type: string
+                  example: me
+      responses:
+        default:
+          description: Default error sample
+            response
+      tags:
+        - post
